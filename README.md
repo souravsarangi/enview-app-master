@@ -24,6 +24,7 @@ Your task is to build a service that accepts events from our IoT device and gene
 
 ## Demo
 
+https://github.com/souravsarangi/enview-app-master/assets/5570530/d3f44d8c-5636-4e89-95fb-c289a9c83ede
 
 ## Prerequisites
 All required Python packages can be found in the `requirements.txt` file. Additionally, the provided `Makefile` can be used to created a virtual environment by running `make venv`. You will also need a Heroku account and have installed the Heroku CLI. For more information on the Heroku CLI, go to https://devcenter.heroku.com/articles/heroku-cli#download-and-install.
