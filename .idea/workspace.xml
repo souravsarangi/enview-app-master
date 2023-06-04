@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e013d6a0-eec3-4e15-800e-fd3afed00b0a" name="Changes" comment="Specs: Create an application for adding events related to vehicle safety and generate alerts as per safety regulations &#10;Tools: python3, docker, flask, postman, pytest&#10;Author: Sourav Sarangi" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Qheu91l96yUS1r3UoXJHRkZKbk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/soura/IdeaProjects/enview-app-master",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e013d6a0-eec3-4e15-800e-fd3afed00b0a" name="Changes" comment="" />
+      <created>1685810460247</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685810460247</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Specs: Create an application for adding events related to vehicle safety and generate alerts as per safety regulations &#10;Tools: python3, docker, flask, postman, pytest&#10;Author: Sourav Sarangi">
+      <created>1685912816889</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685912816889</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Specs: Create an application for adding events related to vehicle safety and generate alerts as per safety regulations &#10;Tools: python3, docker, flask, postman, pytest&#10;Author: Sourav Sarangi">
+      <created>1685913253875</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685913253875</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Specs: Create an application for adding events related to vehicle safety and generate alerts as per safety regulations &#10;Tools: python3, docker, flask, postman, pytest&#10;Author: Sourav Sarangi" />
+    <option name="LAST_COMMIT_MESSAGE" value="Specs: Create an application for adding events related to vehicle safety and generate alerts as per safety regulations &#10;Tools: python3, docker, flask, postman, pytest&#10;Author: Sourav Sarangi" />
+  </component>
+</project>

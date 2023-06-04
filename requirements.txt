@@ -1,0 +1,6 @@
+requests==2.24.0
+Flask>=2.2.2
+pytest==6.0.1
+gunicorn==20.0.4
+requests-cache==0.5.2
+sortedcontainers==2.4.0
