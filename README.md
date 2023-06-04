@@ -3,6 +3,7 @@ This project demonstrates how to use Python flask to create web application for 
 
 Specifications for the project can be found here:
  [Enview Take Home](https://sepia-seahorse-5d3.notion.site/Backend-Take-Home-Exercise-2c3fa4eba8c246c3bb71429e319309b9).
+ [enview_take_home.pdf](https://github.com/souravsarangi/enview-app-master/files/11646705/enview_take_home.pdf)
 
 The tools used are:
 * Python's `requests` package.
@@ -10,10 +11,19 @@ The tools used are:
 * working with JSONs.
 * modular programming
 
-When a client visits the application, it
-1. gets the client's IP address.
-1. uses the IP address to look up their location.
-1. uses their location data to greet them with temperature of the city they are located in.
+## Tasks
+Your task is to build a service that accepts events from our IoT device and generates alerts.
+- Use a web framework of your choice to build two APIs:
+    - POST /event: Our IoT device will call this endpoint to send the driving event
+    - GET /alert/{alert_id}: This endpoint will respond with a single alert of ID `alert_id`
+- On getting an event, the service will store the event in a database. You may use a mock database- a simple in-memory data structure like a list will suffice. You will not be evaluated on your database integration.
+- Every 5 minutes, there must be at least one run of our [rule](https://www.notion.so/Backend-Take-Home-Exercise-2c3fa4eba8c246c3bb71429e319309b9?pvs=21) on the events received in the past five minutes.
+- It is OK for alerts to be generated up to five minutes after the [rule](https://www.notion.so/Backend-Take-Home-Exercise-2c3fa4eba8c246c3bb71429e319309b9?pvs=21) condition is met.
+- When an alert is generated, it must be stored in the database with an associated unique ID.
+- The alert must be made available through a [GET endpoint](https://www.notion.so/Backend-Take-Home-Exercise-2c3fa4eba8c246c3bb71429e319309b9?pvs=21).
+
+## Demo
+
 
 ## Prerequisites
 All required Python packages can be found in the `requirements.txt` file. Additionally, the provided `Makefile` can be used to created a virtual environment by running `make venv`. You will also need a Heroku account and have installed the Heroku CLI. For more information on the Heroku CLI, go to https://devcenter.heroku.com/articles/heroku-cli#download-and-install.
